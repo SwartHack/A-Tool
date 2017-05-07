@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1B8981FAAD384EF5A98E037AA5417A39"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1EA5607A0AE1FC16B216A0FB81802C7D"
         "OwnerKey" = "8:_0931C1166FAA4823AC40F9622607AE0D"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,6 +53,12 @@
         {
         "MsmKey" = "8:_428582C542CE7924DCEF32B805A98000"
         "OwnerKey" = "8:_0931C1166FAA4823AC40F9622607AE0D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AB9FFF54472D490D9BB9800C4D5CBB62"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -198,26 +198,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1B8981FAAD384EF5A98E037AA5417A39"
-            {
-            "SourcePath" = "8:..\\..\\AServiceController\\Resources\\Services.ico"
-            "TargetName" = "8:Services.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_37346560457B4934BFE073D43008848A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1EA5607A0AE1FC16B216A0FB81802C7D"
             {
             "AssemblyRegister" = "3:1"
@@ -278,6 +258,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AB9FFF54472D490D9BB9800C4D5CBB62"
+            {
+            "SourcePath" = "8:..\\..\\AServiceController\\Resources\\Services.ico"
+            "TargetName" = "8:Services.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_37346560457B4934BFE073D43008848A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D439B6D7490F915D4150CF98D1736C53"
@@ -385,7 +385,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:A-Tool Service Controller"
         "ARPURLINFOABOUT" = "8:https://hackinc.net"
-        "ARPPRODUCTICON" = "8:_1B8981FAAD384EF5A98E037AA5417A39"
+        "ARPPRODUCTICON" = "8:_AB9FFF54472D490D9BB9800C4D5CBB62"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -499,7 +499,7 @@
             "Target" = "8:_0931C1166FAA4823AC40F9622607AE0D"
             "Folder" = "8:_4F3C65E231F342DDBCB7CC0110CADEAC"
             "WorkingFolder" = "8:_37346560457B4934BFE073D43008848A"
-            "Icon" = "8:"
+            "Icon" = "8:_AB9FFF54472D490D9BB9800C4D5CBB62"
             "Feature" = "8:"
             }
         }
